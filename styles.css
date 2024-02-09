@@ -1,0 +1,25 @@
+.task-container {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.task {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.task:hover {
+    background-color: #f1f1f1;
+}
+
+.task input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.task.dragging {
+    opacity: 0.5;
+}
